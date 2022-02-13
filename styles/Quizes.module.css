@@ -1,0 +1,42 @@
+.quizesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quizesContainerTitle{
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.quizesLinks{
+    font-weight: normal;
+    font-size: 24px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.quizesLinks li{
+    border-radius: 12.5px;
+    background-color: var(--coral-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 100px;
+    margin: 30px 0;
+    transition: all 0.4s;
+
+    font-weight: normal;
+    font-size: 24px;
+    color:#30343F;
+    text-transform: capitalize;
+}
+
+.quizesLinks li:hover{
+    cursor: pointer;
+    color: var(--light);
+    transform: scale(1.02);
+}

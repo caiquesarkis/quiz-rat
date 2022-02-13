@@ -1,0 +1,15 @@
+.breadcrumbList{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.breadcrumbList li{
+    text-transform: capitalize;
+}
+
+.breadcrumbList img{
+    transform: scale(0.5);
+}
