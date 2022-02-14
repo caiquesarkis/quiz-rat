@@ -4,8 +4,8 @@ import styles from  './Navbar.module.css'
 export default function Navbar(){
     return(
         <navbar className={styles.navbarContainer}>
-            <Link id="quizrat-logo" href="/">
-                <img  src="quizrat-logo.png"/>
+            <Link  href="/">
+                <img className={styles.quizratLogo} src="quizrat-logo.png"/>
             </Link>
             <div className={styles.navbarSearchBar}>
                     <input type="search" placeholder='Animals, history, cars...'/>

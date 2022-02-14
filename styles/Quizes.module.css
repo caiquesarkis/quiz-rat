@@ -18,7 +18,7 @@
     padding: 0;
 }
 
-.quizesLinks li{
+.quizesLinks a{
     border-radius: 12.5px;
     background-color: var(--coral-light);
     display: flex;
@@ -35,7 +35,7 @@
     text-transform: capitalize;
 }
 
-.quizesLinks li:hover{
+.quizesLinks a:hover{
     cursor: pointer;
     color: var(--light);
     transform: scale(1.02);

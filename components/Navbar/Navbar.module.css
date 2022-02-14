@@ -1,20 +1,19 @@
 .navbarContainer{
     background-color: var(--yellow);
-    height: 150px;
+    height: 90px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .navbarContainer a{
-    font-size: 24px;
+    font-size: 14px;
     margin-right: 60px;
     color: #30343F;
 }
 
 .navbarContainer a:hover{
-    font-size: 24px;
     color: #FAFAFF;
 }
 
@@ -25,7 +24,7 @@
     justify-content: flex-end;
     margin-left: 30px;
     margin-right: 10%;
-    height: 70px;
+    height: 50px;
     width: 600px;
     border-radius: 12.5px;
     background-color: #FAFAFF;
@@ -45,16 +44,15 @@
     background-color: transparent;
     border-radius: 12.5px;
     position: absolute;
-    transform: scale(0.9);
+    transform: scale(0.5);
 }
 
 .navbarSearchBar img:hover{
     cursor: pointer;
 }
 
-.quizrat-logo img{
-    height: 100px;
-    width: 100px;
+.quizratLogo{
+    cursor: pointer;
 }
 
 

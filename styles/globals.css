@@ -32,7 +32,13 @@ a {
 
 h1{
   font-weight: bold;
-  font-size: 64px;
+  font-size: 3rem;
   text-align: center;
   text-transform: capitalize;
 }
+
+
+h2{
+  font-size: 1rem;
+}
+
